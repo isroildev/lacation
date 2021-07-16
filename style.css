@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main_dis {
+  background-color: grey;
+  height: 100px;
+}
+
+.main_nav {
+  width: 50%;
+  float: right;
+}
+
+.main_ul li {
+  margin: 10px;
+  margin-top: 50px;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.main_ul li a {
+  text-decoration: none;
+  display: block;
+  color: #fff;
+}
+
+.span {
+  width: 100%;
+  background-color: red;
+  padding: 10px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.img {
+  background: url('bandargoh.jpg');
+  background-size: cover;
+  height: 700px;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  height: 300px;
+}
+
+.container>div {
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+
+.margin {
+  margin-top: 150px;
+  background-color: red;
+  height: 100%;
+}
+
+.padding {
+  margin-top: 150px;
+  background-color: #fff;
+  height: 100%;
+}
+
+.padding h2 {
+  text-align: center;
+  margin-top: 30%;
+}
+
+.margin h1 {
+  color: #fff;
+  margin-top: 40%;
+}
+
+.margin span {
+  margin-top: 50px;
+  display: block;
+  text-align: center;
+  width: 50%;
+  height: 60px;
+  margin-left: 40px;
+  border: 3px solid #fff;
+  padding-top: 15px;
+  color: #fff;
+}
+
+.main_job {
+  width: 100%;
+}
+
+.main_servises>div {
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+
+.main_servises {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  color: #1A2BE3;
+  height: 800px;
+}
+
+.main_servises div img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.air {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.boat {
+
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  height: 250px;
+}
+
+.truck {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.main_servises em {
+  color: red;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.lorem {
+  margin-top: 50px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+h6 em {
+  font-size: 20px;
+}
+
+h6 {
+  color: black;
+  font-weight: bold;
+}
+
+.main_business {
+  margin: 1, 5rem 0;
+  background-color: #B9E0FF;
+  height: 800px;
+}
+
+.bus_text {
+  margin-top: 50px;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 50px;
+  word-spacing: 2px;
+}
+
+.bus_disp {
+  position: relative;
+}
+
+.bus_text p {
+  margin-top: 20px;
+}
+
+.but {
+  background-color: red;
+  border: none;
+  margin-top: 30px;
+  padding: 10px;
+  color: #fff;
+}
+
+.border {
+  display: inline-block;
+  position: relative;
+  width: 50%;
+  height:200px;
+  left: 40%;
+  
+}
+
+.posit {
+  width: 100%;
+  opacity: 0.5;
+}
+.posit:hover{
+  transform:rotate(360deg);
+  transition:3s;
+}
+.location {
+  width: 15%;
+  vertical-align: middle;
+  margin-left:5px;
+  
+}
+
+.truc {
+  width: 50%;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+}
+
+.bus_disp h1 {
+  display: inline;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.div2{
+  width:100%;
+  background-color:#fff;
+  margin: 20px;
+  height:120px;
+  border-left:5px solid red;
+   border-bottom: 3px solid blue;
+}
+.div1{
+  width:100%;
+  background-color:#fff;
+  height:120px;
+  border-left:5px solid red;
+  border-bottom: 3px solid blue;
+  
+}
+.posit:hover{
+  opacity: 1;
+}
+.div1 p{
+  text-align:center;
+  vertical-align: middle ;
+  padding-left:20px;
+  
+}
+.div2 p {
+  text-align: center;
+  vertical-align: middle;
+  padding-left: 20px;
+
+}
+.active{
+  width:100%;
+  height:800px;
+}
+.imale{
+  background:url('bandargoh.jpg');
+  background-size: cover ;
+  height:500px;
+}
+.nox{
+  background-color:red;
+  height:500px;
+}
+.tz{
+  color:#fff;
+  padding-top:20px;
+  width:50%;
+  margin-left:20px;
+}
+.tz em{
+  font-style: italic ;
+}
+.whiteline{
+  width: 60px;
+  height:5px;
+  background-color: #fff;
+  margin-top:30px;
+  margin-left:50px;
+}
+.disa{
+  margin-top:80px;
+  text-align:center;
+  color:#fff;
+  word-spacing:2px;
+  letter-spacing: 5px;
+}
+.disa div{
+  display: inline-block;
+  width:50%;
+  float:left;
+} 
+.form_action{
+  width:100%;
+  height:500px;
+  background-color: #AFD1FF;
+}
+.form_div{
+  padding-top:40px;
+  width:50%;
+  margin:0 auto;
+}
+.cal{
+  width:40%;
+  padding:10px;
+  margin-right: 20px;
+  border:none;
+  background-color:red;
+  color:white;
+  border-radius:10px;
+  margin:30px;
+}
+.box_shadow{
+  margin:30px;
+}
+.box_parag {
+  margin:30px;
+}
+.main_about{
+  width:50%;
+  margin:0 auto;
+  padding-top:60px;
+  background-color: #fff;
+  border-top: 5px solid red ;
+  height:400px;
+}
+.main_about label{
+  margin:10px;
+}
+.main_about input[type=radio]{
+  height:50px;
+  width:20px;
+  border-radius:100%;
+  background-color:red;
+}
+input[type=checkbox]:focus{
+  background-color:red;
+}
+
+#card{
+  width:20%;
+}
+.login{
+  display:flex;
+  flex-wrap:wrap;
+  height:25%;
+}
+.login input{
+  margin:10px;
+}
+.our{
+  display:flex;
+  justify-content:space-evenly;
+  height:10%;
+}
+.hei{
+  display:flex;
+  justify-content:space-evenly;
+ 
+  
+}
+.hei input{
+  width:20%;
+} 
+.register{
+ display:block;
+ margin-top:70px;
+ margin-left:35px;
+ background-color:red;
+ color:#fff;
+ width:20%;
+ text-align:center;
+ padding: 5px;
+ border-radius:10px ;
+}
+.menyu{
+  background:url('airplane.jpg');
+  background-size:cover;
+  height:500px;
+  background-repeat: no-repeat;
+  position:relative;
+  z-index: -1;
+  width:100%;
+}
